@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marja</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-900">
+    <!-- header -->
+    <header class="w-full h-screen bg-cover bg-center rounded-b-[40px] md:rounded-b-[80px] 
+           h-[400px] sm:h-[500px] md:h-[700px] lg:h-[875px] 
+           bg-[url('./images/mobile.png')] 
+           sm:bg-[url('./images/main_bg-min.png.webp')]">
+
+        <!-- container -->
+        <div class="max-w-[2000px] mx-auto px-4 h-full flex flex-col">
+
+            <!-- ✅ Calendar block tepada va o‘ng tomonda -->
+            <div class="pt-6 gap-[12px] flex flex-col sm:flex-row sm:justify-center lg:justify-end lg:mr-[240px]
+            lg:mt-[25px] items-center">
+                <div class="flex items-center">
+                    <img class="w-[74px] h-[54px] lg:w-20 lg:h-14" src="./images/cal_icon-min.png.webp" alt="calendar">
+                    <div class="border rounded-[15px] px-[15px] py-1 text-white text-center">
+                        <h3 class="font-semibold">9-Iyun</h3>
+                        <p class="text-sm">Bepul dars sanasi</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center">
+                    <img class="w-[74px] h-[54px] lg:w-20 lg:h-14" src="./images/cal_icon-min.png.webp" alt="calendar">
+                    <div class="border rounded-[15px] px-3 py-1 text-white text-center">
+                        <h3 class="font-semibold">15-Iyun</h3>
+                        <p class="text-sm">Keyingi dars sanasi</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- asosiy qism -->
+            <div class="flex flex-col-reverse lg:flex-row-reverse lg:justify-between items-center flex-1">
+                <div></div>
+
+                <!-- image -->
+                <div class="hidden lg:block mt-[-100px]">
+                    <img class="w-[300px] md:w-[500px] lg:w-[878px]" src="./images/komilxon.png" alt="Komilxon">
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+</html>
