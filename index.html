@@ -8,7 +8,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body class="bg-gray-900">
+<body class="">
     <!-- header -->
     <header class="w-full h-screen bg-cover bg-center rounded-b-[40px] md:rounded-b-[80px] 
            h-[400px] sm:h-[500px] md:h-[700px] lg:h-[875px] 
@@ -17,7 +17,6 @@
 
         <!-- container -->
         <div class="max-w-[2000px] mx-auto px-4 h-full flex flex-col">
-
             <!-- ✅ Calendar block tepada va o‘ng tomonda -->
             <div class="lg:flex lg:flex-col">
                 <div class="pt-6 gap-[12px] lg:gap-[56px] flex flex-col sm:flex-row sm:justify-center lg:justify-end lg:mr-[240px]
@@ -39,16 +38,14 @@
                             <p class="text-sm">Keyingi dars sanasi</p>
                         </div>
                     </div>
-
                 </div>
 
 
                 <!-- LG  -->
-                <div class="hidden lg:flex ">
+                <div class="hidden lg:flex  lg:items-center">
                     <div class="hidden lg:block lg:mt-[-100px] ">
                         <img class="w-[280px]  md:w-[500px] lg:w-[878px]" src="./images/komilxon.png" alt="Komilxon">
                     </div>
-
                     <div class="lg:flex lg:flex-col ml-[58px] mt-[25px]">
                         <h2 class="text-center mb-[2.75px] lg:text-[44px] font-[400]  text-white">Uzumda
                             daromad
@@ -56,11 +53,24 @@
                         <h2 class="lg:text-[78px] text-center  font-[700] mb-[9.68px] text-white "> 0 dan
                             1
                             milliardgacha</h2>
+                        <div class="flex justify-center lg:gap-[12.78px] lg:items-center pb-[40px] pt-[15px]">
+                            <img class="lg:w-[82px] lg:h-[62px]" src="./images/Frame 2089346231.png" alt="">
+                            <p class="lg:text-[18px] text-white lg:leading-[110%] lg:font-[700]">Tovar topishdan tortib,
+                                top sotuvchigacha aniq.
+                                <br> ishlaydigan strategiyalarni o’rganing!
+                            </p>
+                        </div>
+                        <button class="lg:w-[378px] lg:ml-auto lg:mr-auto px-[80px] py-[26px] bg-[#EFC68D]
+                             rounded-[20.37px] bg-no-repeat text-[#977041] leading-[130%] 
+                             text-center tracking-[-3%] text-[15.33px] font-[400]
+                              bg-[url('./images/btn.png')] bg-cover">Ro'yxatdan
+                            o'tish
+                        </button>
                     </div>
                 </div>
-
             </div>
 
+            <!-- Mobile  -->
             <div class="flex lg:hidden flex-col lg:flex-row-reverse lg:justify-between items-center flex-1">
                 <div class="pt-[11px] mt-[11px]">
                     <h2 class=" lg:hidden text-center mb-[2.75px] font-[400] lounded-[110px] text-white">Uzumda
@@ -68,15 +78,25 @@
                         qilishni o’rganing, <br> Uzumda savdo qilishni o‘rganing</h2>
                     <h2 class="text-center lg:hidden font-[700] mb-[9.68px] text-white lounded-[110px]"> 0 dan 1
                         milliardgacha</h2>
+                    <div class="lg:hidden flex justify-center gap-[7.78px] pb-[20px] pt-[15px]">
+                        <img src="./images/frame.png" width="51" height="38" alt="">
+                        <p class="text-[11px] text-white font-[400]">Tovar topishdan tortib, top sotuvchigacha aniq.
+                            <br> ishlaydigan strategiyalarni o’rganing!
+                        </p>
+                    </div>
                 </div>
 
                 <!-- image -->
                 <div class="lg:block lg:mt-[-100px] ">
                     <img class="w-[280px]  md:w-[500px] lg:w-[878px]" src="./images/komilxon.png" alt="Komilxon">
-                    <button class="px-[80px] py-[26px] bg-[#EFC68D] rounded-[20.37px] text-[#977041] leading-[130%] text-center tracking-[-3%] text-[15.33px] font-[400] bg-[url('./images/btn.png')]">Ro'yxatdan o'tish</button>
+                    <button
+                        class="px-[80px] mt-[20px] py-[26px] bg-[#EFC68D] rounded-[20.37px] text-[#977041] leading-[130%] text-center tracking-[-3%] text-[15.33px] font-[400] bg-[url('./images/btn.png')]">Ro'yxatdan
+                        o'tish</button>
                 </div>
             </div>
     </header>
+
+    
 </body>
 
 </html>
